@@ -1,7 +1,14 @@
 body{
     background-color: pink;
 }
-table{
-    border: 1px solid black
+.container{
+    display: grid;
+    margin-top: 50px;
+    height:800px;
+    background-color: rgb(44, 90, 99);
+    grid-template-columns:repeat(3 1fr) ;
+    grid-template-rows: repeat(1fr 1fr 1fr);
+    border: 1px solid black;
+
 }
 
