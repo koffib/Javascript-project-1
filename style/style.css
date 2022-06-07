@@ -1,14 +1,28 @@
-body{
-    background-color: pink;
-}
-.container{
-    display: grid;
-    margin-top: 50px;
-    height:800px;
-    background-color: rgb(44, 90, 99);
-    grid-template-columns:repeat(3 1fr) ;
-    grid-template-rows: repeat(1fr 1fr 1fr);
-    border: 1px solid black;
+
+
+#container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-top: 25px;
+  border : 1px solid black;
+  width: 850px;
+  height: 850px;
+  background-color: brown;
+  margin-left: 2%;
+ 
+ 
 
 }
+.pizza {
+    display: block;
+    border: 1px solid black;
+    width: 150px;
+    height: 150px;
+    margin-bottom: 25px;
+    margin-left: 15px;
+    margin-top: 15px;
+    
+}
+
+
 
